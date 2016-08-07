@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Notes app</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<h1>App to create, update, view and delete notes</h1>
+<div class="header">
+	<input type="text" id="searchKey" placeholder="Enter note id or leave blank"/>
+	<button id="btnSearch">Find Notes</button>
+	<button id="btnAdd">Create New Note</button>
+	<br></br>
+	<label>All Notes, click on individual note to modify</label>
+</div>
+
+<div class="leftArea">
+<ul id="notesList"></ul>
+</div>
+
+<form id="noteForm">
+	
+<div class="mainArea">
+
+<label>Id:</label>
+<input id="noteId" name="id" type="text" disabled />
+
+<label>Value:</label>
+<input type="text" id="value" name="value" required>
+
+<button id="btnSave">Save Note</button>
+<button id="btnDelete">Delete Note</button>
+
+</div>
+
+</form>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
