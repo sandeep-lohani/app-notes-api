@@ -15,7 +15,7 @@ Set-up
 
 #Usage
 ##Dependencies
-Included dependencies for spring boot, sprin jpa and junit 
+Included dependencies for spring boot, spring data jpa and junit 
 ##How to Run
 	+ Hit URL on browser - http://localhost:8080/local/ 
 	+ Input - Enter note id or leave blank in the search input box provided 
