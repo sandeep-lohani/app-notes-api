@@ -21,7 +21,7 @@ import com.nominet.notes.control.service.ControlNotesService;
 import com.nominet.notes.dto.NotesDto;
 
 /**
- * Created by sandeep
+ * Created by sandeep.
  */
 @RestController
 @RequestMapping(value = "/notes", produces = APPLICATION_JSON_VALUE)

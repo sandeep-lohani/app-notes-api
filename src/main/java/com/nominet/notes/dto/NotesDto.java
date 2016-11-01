@@ -2,7 +2,7 @@ package com.nominet.notes.dto;
 
 
 /**
- * @author Sandeep
+ * @author Sandeep.
  *
  */
 public class NotesDto {

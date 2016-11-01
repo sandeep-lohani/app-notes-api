@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.nominet.notes.model.NotesEntity;
 /**
- * Created by sandeep
+ * Created by sandeep.
  */
 @Repository
 public interface NotesRepository extends CrudRepository<NotesEntity, Long>{

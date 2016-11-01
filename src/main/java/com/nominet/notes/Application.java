@@ -16,7 +16,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
 /**
- * Created by sandeep
+ * Created by sandeep.
  */
 @Configuration
 @EnableAutoConfiguration
